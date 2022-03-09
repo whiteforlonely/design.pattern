@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class CompanyBaseIntroduction extends AbstractPrototype{
 
-	private Map<String, String> introduceMap = new HashMap<>();
+	private Map<String, String> introduceMap = new HashMap<String, String>();
 	
 	public CompanyBaseIntroduction(){}
 	
